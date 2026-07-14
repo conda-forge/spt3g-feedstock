@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: spt3g
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spt3g/spt3g-{{ version }}.tar.gz
-  sha256: 6a1bbb92e3883d751d677129f82d11a73512c0d7a9bac811494793ef748c2ab7
+  sha256: e4c16193fd2fb27238a3bf7cd895bb7abd36e159b4887fc6885a49766c712813
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win]
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
