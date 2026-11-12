@@ -1,12 +1,12 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: spt3g
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/s/spt3g/spt3g-{{ version }}.tar.gz
-  sha256: e4c16193fd2fb27238a3bf7cd895bb7abd36e159b4887fc6885a49766c712813
+  url: https://files.pythonhosted.org/packages/source/s/spt3g/spt3g-{{ version }}.tar.gz
+  sha256: e3fe01688b1c3f545fca596cd656d21f091f538cd05aebe6e0c89093ccc818cc
 
 build:
   number: 0
