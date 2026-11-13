@@ -9,7 +9,7 @@ source:
   sha256: e3fe01688b1c3f545fca596cd656d21f091f538cd05aebe6e0c89093ccc818cc
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
